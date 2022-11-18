@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+  font-family:Nike TG,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#components-layout-demo-top-side-2 .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .ant-row-rtl #components-layout-demo-top-side-2 .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+.Search__menu input{
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.Search__menu button{
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  border-radius: 50% !important;
+  
+}
+.Search__menu button:hover{
+  opacity : 0.6
+}
+..Search__menu input:hover{
+  background-color: #f5f5f5;
+  opacity : 0.6
+}
