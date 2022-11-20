@@ -16,6 +16,8 @@ import Product from './page/product/Product';
 import Test from './test';
 import LoginIndex from './Product/Login/Login';
 import Allproduct from './Product/All Product/Allproduct';
+import OrderList from './page/OrderList/OrderList'
+import Order from './page/Order/Order';
 function App(){
   return (
     <div className="App">
@@ -43,6 +45,10 @@ function App(){
               <Route path="/product/:productID" element={<Product/>}>
               </Route>
               <Route path="/newProduct" element={<ProductList/>}>
+              </Route>
+              <Route path="/orders" element={<OrderList/>}>
+              </Route>
+              <Route path="/order/:orderID" element={<Order/>}>
               </Route>
             </Routes>
     </Router>  

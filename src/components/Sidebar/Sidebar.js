@@ -53,8 +53,10 @@ function Sidebar(){
                             </Link>
                             </li>
                             <li className="sidebar__items">
+                            <Link to="/orders" className="link">
                                 <FontAwesomeIcon icon={faCreditCard} className="items__icons"></FontAwesomeIcon>
-                                <div className="items__name">Transactions</div>
+                                <div className="items__name">Order</div>
+                            </Link>
                             </li>
                             <li className="sidebar__items">
                                 <FontAwesomeIcon icon={faExclamation} className="items__icons"></FontAwesomeIcon>
